@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    font-family: "Book Antiqua";
+    text-align: center;
+    background-color: bisque;
+    border-bottom: 1px solid black;
+}
+
+main{
+    width: 100%;
+    font-size: large;
+    background-color: burlywood;
+    color: rgb(3, 3, 63);
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    background-color: bisque;
+    border-top: 1px solid black;
+    padding: 15px 0 15px 0;
+}
+main img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+
