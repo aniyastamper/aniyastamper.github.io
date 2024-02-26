@@ -20,3 +20,25 @@ if(isMorning){
 if(isAfternoon){
     welcomeDiv.textContent=('Hey GoodAfternoon!')
 }
+
+
+/*Inputting A Secrect message using Local Storage*/ 
+
+
+/*We are using a input field to type the text then applying that text to 
+a key and assigning our mesaage to its value*/ 
+
+const button= document.querySelector('button')
+
+button.addEventListener('click', ()=> {
+   const Secrect= document.querySelector('input').value
+  // console.log({Secrect}) it works, Now its time to add to local storage
+
+  localStorage.setItem(`It's a secret to everybody.`,Secrect)
+})
+
+
+
+
+
+
