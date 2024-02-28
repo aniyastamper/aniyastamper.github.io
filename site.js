@@ -30,13 +30,19 @@ a key and assigning our mesaage to its value*/
 
 const button= document.querySelector('button')
 
-button.addEventListener('click', ()=> {
-   const Secrect= document.querySelector('input').value
-  // console.log({Secrect}) it works, Now its time to add to local storage
+//button.addEventListener('click', ()=> {
+ //  const Secrect= document.querySelector('input').value
+  // console.log({Secrect}) //it works, Now its time to add to local storage
+//
+//  localStorage.setItem(`It's a secret to everybody.`,Secrect)
+//})
 
-  localStorage.setItem(`It's a secret to everybody.`,Secrect)
-})
+localStorage.setItem(`It's a secret to everybody.`,"tonights dinner: Large krusty krab pizza & A Kelp Shake")
 
+//** SECRECT RESTART TO ADD TO CONSOLE
+
+//const Secrect=['tonights dinner: medium krusty krab pizza']
+//localStorage.setItem('Secrect',JSON.stringify(Secrect))
 
 
 
